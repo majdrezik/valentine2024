@@ -12,7 +12,8 @@
     "start:win32": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777 --browser \"C:\\Program Files\\Firefox Developer Edition\\firefox.exe\"",
     "//": "Hello! If you are having trouble running this command. Try changing Firefox Developer Edition to FirefoxDeveloperEdition",
     "start:darwin:linux": "browser-sync start --server --files '**/*.css, **/*.html, **/*.js, !node_modules/**/*' --directory --port 7777",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "echo \"No build step required for this project\""
   },
   "repository": {
     "type": "git",
@@ -20,9 +21,9 @@
   },
   "keywords": [
     "Happy",
-    "Birthday"
+    "Valentine"
   ],
-  "author": "Afiur Rahman Fahim",
+  "author": "Majd Rezik",
   "modification": "GovindCodes",
   "license": "MIT",
   "bugs": {
